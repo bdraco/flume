@@ -1,0 +1,8 @@
+{
+  "domain": "flume",
+  "name": "flume",
+  "documentation": "https://www.home-assistant.io/integrations/flume/",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@ChrisMandich"]
+}
