@@ -1,14 +1,15 @@
 {
+  "version": "4.0.0",
   "domain": "flume",
-  "name": "flume",
+  "name": "Flume",
   "documentation": "https://www.home-assistant.io/integrations/flume/",
-  "requirements": [
-    "pyflume==0.4.0"
+  "requirements": ["pyflume==0.5.5"],
+  "codeowners": ["@ChrisMandich", "@bdraco"],
+  "config_flow": true,
+  "dhcp": [
+    {
+      "hostname": "flume-gw-*"
+    }
   ],
-  "dependencies": [],
-  "codeowners": [
-    "@ChrisMandich",
-    "@bdraco"
-  ],
-  "config_flow": true
+  "iot_class": "cloud_polling"
 }
